@@ -1,0 +1,9 @@
+C:\Users\Hansul\Desktop\P5hh\P5hh\bin\Debug\P5hh.exe.config
+C:\Users\Hansul\Desktop\P5hh\P5hh\bin\Debug\P5hh.exe
+C:\Users\Hansul\Desktop\P5hh\P5hh\bin\Debug\P5hh.pdb
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.csprojResolveAssemblyReference.cache
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.Form1.resources
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.Properties.Resources.resources
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.csproj.GenerateResource.Cache
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.exe
+C:\Users\Hansul\Desktop\P5hh\P5hh\obj\Debug\P5hh.pdb

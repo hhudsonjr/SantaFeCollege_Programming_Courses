@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF1E6BF182982C000EEEB43 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF1E6BE182982C000EEEB43 /* CustomCell.xib */; };
+		CEF1E6C21829876B00EEEB43 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6C11829876B00EEEB43 /* CustomCell.m */; };
+		CEF1E6C51829915100EEEB43 /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6C41829915100EEEB43 /* WheelView.m */; };
+		CEF1E6C8182997ED00EEEB43 /* PhotoWheelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6C7182997ED00EEEB43 /* PhotoWheelViewCell.m */; };
+		CEF1E6CB1829A0E000EEEB43 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF1E6C91829A0E000EEEB43 /* defaultPhoto.png */; };
+		CEF1E6CC1829A0E000EEEB43 /* defaultPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF1E6CA1829A0E000EEEB43 /* defaultPhoto@2x.png */; };
+		CEF1E6CF1829A34F00EEEB43 /* SpinGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6CE1829A34F00EEEB43 /* SpinGestureRecognizer.m */; };
+		CEF1E6D11829C0D900EEEB43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF1E6D01829C0D900EEEB43 /* CoreData.framework */; };
+		F3884351181E4E90009570D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3884350181E4E90009570D6 /* UIKit.framework */; };
+		F3884353181E4E90009570D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3884352181E4E90009570D6 /* Foundation.framework */; };
+		F3884355181E4E90009570D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3884354181E4E90009570D6 /* CoreGraphics.framework */; };
+		F388435B181E4E90009570D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3884359181E4E90009570D6 /* InfoPlist.strings */; };
+		F388435D181E4E90009570D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F388435C181E4E90009570D6 /* main.m */; };
+		F3884361181E4E90009570D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3884360181E4E90009570D6 /* AppDelegate.m */; };
+		F3884363181E4E90009570D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F3884362181E4E90009570D6 /* Default.png */; };
+		F3884365181E4E90009570D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3884364181E4E90009570D6 /* Default@2x.png */; };
+		F3884367181E4E90009570D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3884366181E4E90009570D6 /* Default-568h@2x.png */; };
+		F388436A181E4E90009570D6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3884369181E4E90009570D6 /* MasterViewController.m */; };
+		F388436D181E4E90009570D6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F388436C181E4E90009570D6 /* DetailViewController.m */; };
+		F3884370181E4E90009570D6 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F388436E181E4E90009570D6 /* MasterViewController.xib */; };
+		F3884373181E4E90009570D6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3884371181E4E90009570D6 /* DetailViewController.xib */; };
+		F388437C181E58BB009570D6 /* NameEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F388437A181E58BB009570D6 /* NameEditorViewController.m */; };
+		F388437D181E58BB009570D6 /* NameEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F388437B181E58BB009570D6 /* NameEditorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEF1E6BE182982C000EEEB43 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		CEF1E6C01829876B00EEEB43 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CEF1E6C11829876B00EEEB43 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		CEF1E6C31829915100EEEB43 /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		CEF1E6C41829915100EEEB43 /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		CEF1E6C6182997ED00EEEB43 /* PhotoWheelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoWheelViewCell.h; sourceTree = "<group>"; };
+		CEF1E6C7182997ED00EEEB43 /* PhotoWheelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoWheelViewCell.m; sourceTree = "<group>"; };
+		CEF1E6C91829A0E000EEEB43 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		CEF1E6CA1829A0E000EEEB43 /* defaultPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultPhoto@2x.png"; sourceTree = "<group>"; };
+		CEF1E6CD1829A34F00EEEB43 /* SpinGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinGestureRecognizer.h; sourceTree = "<group>"; };
+		CEF1E6CE1829A34F00EEEB43 /* SpinGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinGestureRecognizer.m; sourceTree = "<group>"; };
+		CEF1E6D01829C0D900EEEB43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F388434D181E4E90009570D6 /* PhotoWheelPrototype1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWheelPrototype1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3884350181E4E90009570D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3884352181E4E90009570D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3884354181E4E90009570D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3884358181E4E90009570D6 /* PhotoWheelPrototype1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoWheelPrototype1-Info.plist"; sourceTree = "<group>"; };
+		F388435A181E4E90009570D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F388435C181E4E90009570D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F388435E181E4E90009570D6 /* PhotoWheelPrototype1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoWheelPrototype1-Prefix.pch"; sourceTree = "<group>"; };
+		F388435F181E4E90009570D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3884360181E4E90009570D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3884362181E4E90009570D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F3884364181E4E90009570D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F3884366181E4E90009570D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F3884368181E4E90009570D6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F3884369181E4E90009570D6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F388436B181E4E90009570D6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F388436C181E4E90009570D6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F388436F181E4E90009570D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		F3884372181E4E90009570D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		F3884379181E58BB009570D6 /* NameEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEditorViewController.h; sourceTree = "<group>"; };
+		F388437A181E58BB009570D6 /* NameEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEditorViewController.m; sourceTree = "<group>"; };
+		F388437B181E58BB009570D6 /* NameEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameEditorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F388434A181E4E90009570D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1E6D11829C0D900EEEB43 /* CoreData.framework in Frameworks */,
+				F3884351181E4E90009570D6 /* UIKit.framework in Frameworks */,
+				F3884353181E4E90009570D6 /* Foundation.framework in Frameworks */,
+				F3884355181E4E90009570D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3884344181E4E90009570D6 = {
+			isa = PBXGroup;
+			children = (
+				F3884356181E4E90009570D6 /* PhotoWheelPrototype1 */,
+				F388434F181E4E90009570D6 /* Frameworks */,
+				F388434E181E4E90009570D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F388434E181E4E90009570D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F388434D181E4E90009570D6 /* PhotoWheelPrototype1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F388434F181E4E90009570D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1E6D01829C0D900EEEB43 /* CoreData.framework */,
+				F3884350181E4E90009570D6 /* UIKit.framework */,
+				F3884352181E4E90009570D6 /* Foundation.framework */,
+				F3884354181E4E90009570D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3884356181E4E90009570D6 /* PhotoWheelPrototype1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1E6C91829A0E000EEEB43 /* defaultPhoto.png */,
+				CEF1E6CA1829A0E000EEEB43 /* defaultPhoto@2x.png */,
+				F388435F181E4E90009570D6 /* AppDelegate.h */,
+				F3884360181E4E90009570D6 /* AppDelegate.m */,
+				F3884368181E4E90009570D6 /* MasterViewController.h */,
+				F3884369181E4E90009570D6 /* MasterViewController.m */,
+				F3884379181E58BB009570D6 /* NameEditorViewController.h */,
+				F388437A181E58BB009570D6 /* NameEditorViewController.m */,
+				F388437B181E58BB009570D6 /* NameEditorViewController.xib */,
+				F388436B181E4E90009570D6 /* DetailViewController.h */,
+				F388436C181E4E90009570D6 /* DetailViewController.m */,
+				CEF1E6CD1829A34F00EEEB43 /* SpinGestureRecognizer.h */,
+				CEF1E6CE1829A34F00EEEB43 /* SpinGestureRecognizer.m */,
+				CEF1E6C6182997ED00EEEB43 /* PhotoWheelViewCell.h */,
+				CEF1E6C7182997ED00EEEB43 /* PhotoWheelViewCell.m */,
+				F388436E181E4E90009570D6 /* MasterViewController.xib */,
+				F3884371181E4E90009570D6 /* DetailViewController.xib */,
+				CEF1E6C31829915100EEEB43 /* WheelView.h */,
+				CEF1E6C41829915100EEEB43 /* WheelView.m */,
+				CEF1E6BE182982C000EEEB43 /* CustomCell.xib */,
+				CEF1E6C01829876B00EEEB43 /* CustomCell.h */,
+				CEF1E6C11829876B00EEEB43 /* CustomCell.m */,
+				F3884357181E4E90009570D6 /* Supporting Files */,
+			);
+			path = PhotoWheelPrototype1;
+			sourceTree = "<group>";
+		};
+		F3884357181E4E90009570D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3884358181E4E90009570D6 /* PhotoWheelPrototype1-Info.plist */,
+				F3884359181E4E90009570D6 /* InfoPlist.strings */,
+				F388435C181E4E90009570D6 /* main.m */,
+				F388435E181E4E90009570D6 /* PhotoWheelPrototype1-Prefix.pch */,
+				F3884362181E4E90009570D6 /* Default.png */,
+				F3884364181E4E90009570D6 /* Default@2x.png */,
+				F3884366181E4E90009570D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F388434C181E4E90009570D6 /* PhotoWheelPrototype1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3884376181E4E90009570D6 /* Build configuration list for PBXNativeTarget "PhotoWheelPrototype1" */;
+			buildPhases = (
+				F3884349181E4E90009570D6 /* Sources */,
+				F388434A181E4E90009570D6 /* Frameworks */,
+				F388434B181E4E90009570D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoWheelPrototype1;
+			productName = PhotoWheelPrototype1;
+			productReference = F388434D181E4E90009570D6 /* PhotoWheelPrototype1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3884345181E4E90009570D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HansulHudson;
+			};
+			buildConfigurationList = F3884348181E4E90009570D6 /* Build configuration list for PBXProject "PhotoWheelPrototype1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3884344181E4E90009570D6;
+			productRefGroup = F388434E181E4E90009570D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F388434C181E4E90009570D6 /* PhotoWheelPrototype1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F388434B181E4E90009570D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388435B181E4E90009570D6 /* InfoPlist.strings in Resources */,
+				CEF1E6CC1829A0E000EEEB43 /* defaultPhoto@2x.png in Resources */,
+				F3884363181E4E90009570D6 /* Default.png in Resources */,
+				CEF1E6BF182982C000EEEB43 /* CustomCell.xib in Resources */,
+				F3884365181E4E90009570D6 /* Default@2x.png in Resources */,
+				CEF1E6CB1829A0E000EEEB43 /* defaultPhoto.png in Resources */,
+				F3884367181E4E90009570D6 /* Default-568h@2x.png in Resources */,
+				F3884370181E4E90009570D6 /* MasterViewController.xib in Resources */,
+				F3884373181E4E90009570D6 /* DetailViewController.xib in Resources */,
+				F388437D181E58BB009570D6 /* NameEditorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3884349181E4E90009570D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388435D181E4E90009570D6 /* main.m in Sources */,
+				CEF1E6C8182997ED00EEEB43 /* PhotoWheelViewCell.m in Sources */,
+				F3884361181E4E90009570D6 /* AppDelegate.m in Sources */,
+				CEF1E6C21829876B00EEEB43 /* CustomCell.m in Sources */,
+				CEF1E6CF1829A34F00EEEB43 /* SpinGestureRecognizer.m in Sources */,
+				CEF1E6C51829915100EEEB43 /* WheelView.m in Sources */,
+				F388436A181E4E90009570D6 /* MasterViewController.m in Sources */,
+				F388436D181E4E90009570D6 /* DetailViewController.m in Sources */,
+				F388437C181E58BB009570D6 /* NameEditorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3884359181E4E90009570D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F388435A181E4E90009570D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F388436E181E4E90009570D6 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F388436F181E4E90009570D6 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		F3884371181E4E90009570D6 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3884372181E4E90009570D6 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3884374181E4E90009570D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F3884375181E4E90009570D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3884377181E4E90009570D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoWheelPrototype1/PhotoWheelPrototype1-Prefix.pch";
+				INFOPLIST_FILE = "PhotoWheelPrototype1/PhotoWheelPrototype1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3884378181E4E90009570D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoWheelPrototype1/PhotoWheelPrototype1-Prefix.pch";
+				INFOPLIST_FILE = "PhotoWheelPrototype1/PhotoWheelPrototype1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3884348181E4E90009570D6 /* Build configuration list for PBXProject "PhotoWheelPrototype1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3884374181E4E90009570D6 /* Debug */,
+				F3884375181E4E90009570D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3884376181E4E90009570D6 /* Build configuration list for PBXNativeTarget "PhotoWheelPrototype1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3884377181E4E90009570D6 /* Debug */,
+				F3884378181E4E90009570D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3884345181E4E90009570D6 /* Project object */;
+}

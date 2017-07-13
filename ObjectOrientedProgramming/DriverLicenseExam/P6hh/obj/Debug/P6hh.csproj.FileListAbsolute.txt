@@ -1,0 +1,9 @@
+C:\Users\Hansul\Desktop\P6hh\P6hh\bin\Debug\P6hh.exe.config
+C:\Users\Hansul\Desktop\P6hh\P6hh\bin\Debug\P6hh.exe
+C:\Users\Hansul\Desktop\P6hh\P6hh\bin\Debug\P6hh.pdb
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.csprojResolveAssemblyReference.cache
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.Form1.resources
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.Properties.Resources.resources
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.csproj.GenerateResource.Cache
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.exe
+C:\Users\Hansul\Desktop\P6hh\P6hh\obj\Debug\P6hh.pdb
